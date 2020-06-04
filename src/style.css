@@ -16,20 +16,22 @@ body {
   background-color: #eee;
   padding: 1em;
   margin: 1em 0;
+  border-radius: 1em;
 }
 
 input[type="submit"] {
-  background-color: blue;
+  background-color: black;
   border: none;
   color: white;
   width: 50%;
   margin: auto;
-  padding: 1em 3em;
+  padding: 0.5em 3em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 21px;
+  border-radius: 0.5rem;
 }
 
 label {
@@ -59,21 +61,23 @@ textarea {
   background-color: #eee;
   padding: 1em;
   margin-bottom: 1em;
+  border-radius: 1em;
 }
 
 .claim-button {
-  background-color: blue;
+  background-color: black;
   border: none;
   color: white;
-  padding: 1em 3em;
+  padding: 0.5em 3em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
   font-size: 16px;
+  border-radius: 0.5em;
 }
 .claimed {
-  background-color: lightblue;
+  background-color: lightgray;
   cursor: default;
 }
 
@@ -99,8 +103,14 @@ footer {
   }
 }
 
-@media only screen and (max-width: 945px) {
-}
-
 @media only screen and (max-width: 600px) {
+  body {
+    margin: 5%;
+  }
+  label {
+    display: block;
+  }
+  .form-label {
+    text-align: left;
+  }
 }
