@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    {
+      "body": "",
+      "claimed": false,
+      "completed": false,
+      "date": "6/6/20 9:30 am",
+      "location": "Lakeview",
+      "title": "Water"
+    },
+    {
+      "body": "If you have legal training, we could use your help",
+      "claimed": true,
+      "completed": false,
+      "date": "6/7/20 12:00 pm",
+      "location": "Bronzeville",
+      "title": "Legal aid"
+    },
+    {
+      "body": "Meet at Montrose and Broadway",
+      "claimed": false,
+      "completed": false,
+      "date": "6/6/20 7:00 pm",
+      "location": "Uptown",
+      "title": "People to march"
+    },
+    {
+      "body": "Bandaids, Gauze, etc.",
+      "claimed": false,
+      "completed": false,
+      "date": "6/7/20 11:45 am",
+      "location": "Ashland Green Line",
+      "title": "First Aid Kits"
+    },
+    {
+      "body": "Looking for an air conditioned place to set up shop and phonebank",
+      "claimed": false,
+      "completed": false,
+      "date": "6/8/20 6:00 pm",
+      "location": "Hyde Park",
+      "title": "Location to do phone banking"
+    }
+  ]
+}
